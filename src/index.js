@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'; 
 import reportWebVitals from './reportWebVitals';
 import Formulario from './formulario/formulario';
+import Test from './test/test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-   <Formulario></Formulario>
+      <h1>REGISTRO DE AUTOS</h1>
+   <Test></Test>
   </React.StrictMode>
 );
 

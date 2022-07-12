@@ -2,7 +2,7 @@ import "./button.css"
 
 function Button(props){
     return(
-        <div>hola mundo button</div>
+        <button id="boton">GUARDAR</button>
     )
 }
 export default Button
